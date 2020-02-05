@@ -1,0 +1,19 @@
+{
+  "name": "hubs-sound-pack",
+  "version": "1.0.0",
+  "repository": "https://github.com/MozillaReality/hubs-sound-pack.git",
+  "author": "Robert Long <robert@robertlong.me>",
+  "license": "MIT",
+  "scripts": {
+    "generate-manifest": "node ./scripts/manifest-generator.js",
+    "deploy-prod": "node ./scripts/deploy.js ./Audio assets.reticulum-prod-b99b35f30242f894 hubs-sound-pack/",
+    "deploy-dev": "node ./scripts/deploy.js ./Audio assets.reticulum-dev-7f8d39c45878ee2e hubs-sound-pack/"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.612.0",
+    "commander": "^4.1.1",
+    "glob": "^7.1.6",
+    "glob-promise": "^3.4.0",
+    "promptly": "^3.0.3"
+  }
+}
