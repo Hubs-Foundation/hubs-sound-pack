@@ -21,6 +21,7 @@ async function main() {
 
   const manifest = {
     name: "Hubs Sound Pack",
+    searchPlaceholder: "Search sounds...",
     assets: [],
     tags: []
   };
