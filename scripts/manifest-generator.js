@@ -99,7 +99,7 @@ async function main() {
 
   manifest.tags = tagTree;
 
-  const manifestPath = path.join(projectPath, "asset-manifest.json");
+  const manifestPath = path.join(assetsPath, "asset-manifest.json");
   const json = JSON.stringify(manifest, null, 2);
 
   await fs.promises.writeFile(manifestPath, json, "utf8");
