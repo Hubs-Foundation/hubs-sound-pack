@@ -10,7 +10,7 @@
     "deploy-dev": "node ./scripts/deploy.js ./Audio assets.reticulum-dev-7f8d39c45878ee2e hubs-sound-pack/"
   },
   "dependencies": {
-    "aws-sdk": "^2.612.0",
+    "aws-sdk": "^2.814.0",
     "commander": "^4.1.1",
     "glob": "^7.1.6",
     "glob-promise": "^3.4.0",
